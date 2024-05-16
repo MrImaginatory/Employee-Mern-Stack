@@ -1,0 +1,106 @@
+.employee-data-container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+
+.employee-image {
+  width: 50px;
+  height: auto;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px 20px;
+}
+
+.pagination-item {
+  padding: 20px 20px;
+  border: 1px solid #dee2e6;
+  margin: 0 2px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.pagination-item.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.pagination-item.disabled {
+  cursor: not-allowed;
+  background-color: #fff;
+  color: #6c757d;
+  border-color: #dee2e6;
+}
+
+
+
+.employee-data-container {
+  padding: 20px;
+}
+
+.employee-data-container h1 {
+  margin-bottom: 20px;
+}
+
+.employee-image {
+  width: 50px;
+  height: auto;
+}
+
+/* Pagination styles */
+.pagination-container {
+  margin-top: 20px;
+}
+
+.pagination-item {
+  margin-right: 5px;
+}
+
+.pagination-active {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.pagination-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.table button{
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+.btn-primary{
+  margin: 10px 0;
+}
+
+.linkToAdd{
+  text-decoration: none;
+}
+
+.linkToAdd:hover{
+  color: white;
+  text-decoration: none;
+}

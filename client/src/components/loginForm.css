@@ -1,16 +1,15 @@
 .login-form {
   background: #fff;
-  width: 40%;
+  width: 30%;
   margin: 20vh auto;
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
 }
 
-.login-form h1 {
+.login-form h2 {
   padding: 0;
-  margin-bottom: 20px;
-  font-weight: 300;
+  margin:20px 0;
   text-align: center;
 }
 
@@ -63,4 +62,8 @@
 
 .login-form span a:hover {
   color: #684eff;
+}
+
+.btnSubmit{
+  width: 100%;
 }

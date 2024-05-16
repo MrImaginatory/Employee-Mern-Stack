@@ -67,7 +67,7 @@ function EmployeeDataPage() {
   return (
     <div className="employee-data-container">
       <h1>Employee Data</h1>
-      <button className='btn btn-primary'><Link to='/add' className='linkToAdd'>AddEmployee</Link></button>
+      <button className='btn btn-primary'><Link to='/add' className='linkToAdd'>Add Employee</Link></button>
       <table className="table">
         <thead>
           <tr>

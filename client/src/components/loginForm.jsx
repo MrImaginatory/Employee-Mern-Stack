@@ -38,7 +38,7 @@ function LoginForm() {
     <section className='login-form'>
         <form onSubmit={handleSubmit}>
   <div className="form-group">
-    {/* <span>{message}</span> */}
+    <h2><span>Login into <br/> your account</span></h2>
     <label htmlFor="email">Email address</label>
     <input
       type="email"
@@ -68,7 +68,7 @@ function LoginForm() {
       <Link to="/register">Create An Account</Link>
     </span>
   </div>
-  <button type="submit" className="btn btn-primary">Submit</button>
+  <button type="submit" className="btn btn-primary btnSubmit">Submit</button>
 </form>
     </section>
   );

@@ -1,7 +1,3 @@
-Sure, here's a README file for your project:
-
----
-
 # Employee Management System
 
 This project is an Employee Management System built using Vite + React on the client-side and Node.js + Express on the server-side. It allows users to register, add, view, update, and delete employee records. Passwords are stored in encrypted form using Bcrypt.js, and Jsonwebtoken is used to verify user identity.
@@ -71,7 +67,7 @@ The server will run on port 8000, and the client will run on a port specified by
 
 ## Usage
 
-Once the application is running, you can access the Employee Management System in your web browser. Register a new user to get started, and then you can add, view, update, and delete employee records as needed.
+Once the application is running, you can access the Employee Management System in your web browser. Register a new user to get started, and then you can add, view, update, and delete employee records as needed. You can also add images of employees using external links.
 
 ## Contributing
 
@@ -80,7 +76,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize the README file according to your project's specific details and requirements. Let me know if you need any further assistance!
